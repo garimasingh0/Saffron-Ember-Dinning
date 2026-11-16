@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://preetisingla008.github.io/BankSphere-AI/sitemap.xml
