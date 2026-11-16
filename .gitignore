@@ -1,0 +1,14 @@
+# Dependencies & Environment
+node_modules/
+.env
+.env.local
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & Temporary Files
+*.log
+.system_generated/
