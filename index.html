@@ -1,1542 +1,994 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BankSphere AI - Smart Banking. Smarter Decisions. Autonomous financial management, 5.4% APY institutional high-yield treasury, predictive cash flow forecasting, and quantum threat defense.">
-  <meta name="keywords" content="BankSphere AI, Smart Banking, Financial Management, AI Banking, Neobank, High Yield Savings, 5.4% APY, Treasury Management, Automated Wealth">
-  <meta name="author" content="BankSphere AI Technologies Inc.">
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://preetisingla008.github.io/BankSphere-AI/">
-
-  <!-- Open Graph / Facebook / LinkedIn -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://preetisingla008.github.io/BankSphere-AI/">
-  <meta property="og:title" content="BankSphere AI — Smart Banking. Smarter Decisions.">
-  <meta property="og:description" content="Experience the world's most intelligent financial operating system. High-yield 5.4% APY treasury, automated cash flow optimization, and real-time fraud defense.">
-  <meta property="og:site_name" content="BankSphere AI">
-
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://preetisingla008.github.io/BankSphere-AI/">
-  <meta name="twitter:title" content="BankSphere AI — Smart Banking. Smarter Decisions.">
-  <meta name="twitter:description" content="Autonomous financial operating system uniting high-yield savings, predictive cash flow, and quantum fraud defense.">
-
-  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FinancialService",
-    "name": "BankSphere AI",
-    "alternateName": "BankSphereAI",
-    "url": "https://preetisingla008.github.io/BankSphere-AI/",
-    "logo": "https://preetisingla008.github.io/BankSphere-AI/favicon.ico",
-    "slogan": "Smart Banking. Smarter Decisions.",
-    "description": "Next-generation autonomous financial management platform and institutional high-yield treasury neobank.",
-    "currenciesAccepted": "USD, EUR, GBP, JPY, CAD",
-    "paymentAccepted": "Wire, ACH, SWIFT, Sphere-Rail",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "description": "Sphere Essential Account with 5.4% APY High-Yield Vault"
-    }
-  }
-  </script>
-
-  <title>BankSphere AI — Smart Banking. Smarter Decisions.</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Chart.js for silky smooth financial charts -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <!-- Core Styles -->
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron & Ember | Fine Culinary Dining - Garima Singh</title>
+    <meta name="description" content="Saffron & Ember - Royal Kitchen & Grill. Authentic Indian cuisine with saffron-infused biryanis, tandoor grills, and unbeatable price deals. By Garima Singh.">
+    <meta name="author" content="Garima Singh">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        charcoal: {
+                            950: '#0F0E0D',
+                            900: '#181615',
+                            800: '#24211F',
+                            700: '#332E2B',
+                        },
+                        amber: {
+                            400: '#FBBF24',
+                            500: '#D97706',
+                            600: '#B45309',
+                        },
+                        cream: {
+                            50: '#FDFBF7',
+                            100: '#F7F2E8',
+                            200: '#EAE0CE',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-  <!-- Ambient Grid Background -->
-  <div class="ambient-grid"></div>
+<body class="bg-charcoal-950 text-cream-50 font-sans antialiased selection:bg-amber-500 selection:text-charcoal-950">
 
-  <!-- ==========================================================================
-       Navigation Bar
-       ========================================================================== -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#" class="nav-brand">
-        <div class="logo-sphere">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-            <path d="M2 12h20"></path>
-          </svg>
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-charcoal-950/90 backdrop-blur-md border-b border-charcoal-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-charcoal-950 shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
+                        <i data-lucide="flame" class="w-6 h-6 fill-current"></i>
+                    </div>
+                    <div>
+                        <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-cream-50 block leading-none">Saffron & Ember</span>
+                        <span class="text-[11px] uppercase tracking-[0.2em] text-amber-400 font-medium">Royal Kitchen & Grill</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-cream-200">
+                    <a href="#best-choice" class="hover:text-amber-400 transition-colors">Best Choice</a>
+                    <a href="#best-price" class="hover:text-amber-400 transition-colors">Best Price Deals</a>
+                    <a href="#full-menu" class="hover:text-amber-400 transition-colors">Full Menu</a>
+                    <a href="#reservation" class="hover:text-amber-400 transition-colors">Book a Table</a>
+                </nav>
+
+                <!-- Action Buttons -->
+                <div class="flex items-center gap-3">
+                    <a href="#reservation" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-amber-500/40 text-amber-400 hover:bg-amber-500/10 text-sm font-medium transition-all">
+                        <i data-lucide="calendar" class="w-4 h-4"></i>
+                        <span>Reserve</span>
+                    </a>
+                    <button onclick="toggleCart(true)" class="relative inline-flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-charcoal-950 font-semibold text-sm shadow-lg shadow-amber-500/20 transition-all active:scale-95">
+                        <i data-lucide="shopping-bag" class="w-4 h-4"></i>
+                        <span class="hidden sm:inline">Order</span>
+                        <span id="cart-badge" class="bg-charcoal-950 text-amber-400 text-xs font-bold px-2 py-0.5 rounded-full">0</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="brand-text-wrapper">
-          <div class="brand-name">
-            BankSphere <span class="brand-ai-pill">AI</span>
-          </div>
-          <span class="brand-tagline-nav">Smart Banking. Smarter Decisions.</span>
-        </div>
-      </a>
+    </header>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#features" class="nav-link">Intelligence</a></li>
-          <li><a href="#calculators" class="nav-link">Simulators</a></li>
-          <li><a href="#portalSection" class="nav-link">Live Portal</a></li>
-          <li><a href="#security" class="nav-link">Security</a></li>
-          <li><a href="#pricing" class="nav-link">Plans</a></li>
-        </ul>
-      </nav>
-
-      <div class="nav-actions">
-        <!-- Currency Selector -->
-        <select id="currencySelector" class="form-select" style="padding: 0.4rem 0.7rem; font-size: 0.82rem; width: auto; background: rgba(255,255,255,0.06); border-radius: var(--radius-full);">
-          <option value="USD">USD ($)</option>
-          <option value="EUR">EUR (€)</option>
-          <option value="GBP">GBP (£)</option>
-          <option value="JPY">JPY (¥)</option>
-          <option value="CAD">CAD (CA$)</option>
-        </select>
-
-        <!-- Theme Switcher -->
-        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle Theme">
-          <!-- Populated by JS -->
-        </button>
-
-        <!-- Switch to Portal Shortcut -->
-        <button id="navPortalToggle" class="nav-portal-toggle">
-          <span class="portal-dot"></span>
-          <span>Live Portal</span>
-        </button>
-
-        <!-- Open Account CTA -->
-        <button class="btn btn-primary btn-sm" data-action="open-account">
-          Open Account
-        </button>
-
-        <!-- Mobile Menu Toggle Button -->
-        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Open Navigation Menu">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <!-- ==========================================================================
-         Hero Section
-         ========================================================================== -->
-    <section class="hero-section">
-      <div class="hero-glow-1"></div>
-      <div class="hero-glow-2"></div>
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-badge-wrap">
-            <span class="badge">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-              </svg>
-              BankSphere AI 3.0 Platform is Live
-            </span>
-          </div>
-
-          <h1 class="hero-title">
-            Smart Banking.<br>
-            <span class="gradient-text">Smarter Decisions.</span>
-          </h1>
-
-          <p class="hero-tagline">
-            The Autonomous Financial Operating System for the Modern Era
-          </p>
-
-          <p class="hero-desc">
-            BankSphere AI harmonizes institutional-grade high-yield savings (5.4% APY), predictive cash flow intelligence, frictionless cross-border wires, and real-time fraud defense into one sleek, unified platform.
-          </p>
-
-          <div class="hero-cta-group">
-            <button class="btn btn-primary btn-lg" data-action="open-account">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="8.5" cy="7.5" r="4"></circle>
-                <line x1="20" y1="8" x2="20" y2="14"></line>
-                <line x1="23" y1="11" x2="17" y2="11"></line>
-              </svg>
-              Open AI-Powered Account
-            </button>
-
-            <a href="#portalSection" class="btn btn-secondary btn-lg">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                <line x1="8" y1="21" x2="16" y2="21"></line>
-                <line x1="12" y1="17" x2="12" y2="21"></line>
-              </svg>
-              Explore Live Demo Portal
-            </a>
-          </div>
-
-          <div class="hero-trust-row">
-            <div class="trust-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
-              <span>FDIC Insured up to $5M</span>
-            </div>
-            <div class="trust-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-              </svg>
-              <span>SOC2 Type II Certified</span>
-            </div>
-            <div class="trust-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <span>5.4% APY Institutional Yield</span>
-            </div>
-            <div class="trust-item">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <line x1="2" y1="12" x2="22" y2="12"></line>
-              </svg>
-              <span>Zero Foreign FX Markup</span>
-            </div>
-          </div>
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden py-16 sm:py-24 lg:py-28 border-b border-charcoal-800">
+        <!-- Decorative Background Glow -->
+        <div class="absolute inset-0 pointer-events-none">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-10 w-80 h-80 bg-amber-600/10 rounded-full blur-3xl"></div>
         </div>
 
-        <!-- Hero Hologram Visualizer -->
-        <div class="hero-visual-card">
-          <div class="hologram-card-container">
-            <div class="fintech-card">
-              <div class="card-top-row">
-                <div class="card-brand-logo">
-                  <div style="width: 28px; height: 28px; border-radius: 50%; background: var(--gradient-sphere); display: inline-flex; align-items: center; justify-content: center;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.5">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
-                    </svg>
-                  </div>
-                  <span>BankSphere AI</span>
-                </div>
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <span class="card-type-pill">WORLD TITANIUM</span>
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2">
-                    <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
-                    <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
-                    <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
-                    <line x1="12" y1="20" x2="12.01" y2="20"></line>
-                  </svg>
-                </div>
-              </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-charcoal-800 border border-amber-500/30 text-amber-400 text-xs font-semibold uppercase tracking-wider">
+                        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                        <span>Authentic Spices • Fair Pricing • Unmatched Taste</span>
+                    </div>
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-cream-50">
+                        Crafting Culinary <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-600 italic">Masterpieces</span> for Every Craving.
+                    </h1>
+                    <p class="text-cream-200/80 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        From our signature slow-cooked Royal Biryanis to unbeatable daily value combos. Explore curated categories tailored for both luxury feasts and everyday indulgence.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#full-menu" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-charcoal-950 font-semibold text-base shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2 transition-all">
+                            <span>Explore Full Menu</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#best-price" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-charcoal-800 hover:bg-charcoal-700 text-cream-50 border border-charcoal-700 font-medium text-base flex items-center justify-center gap-2 transition-all">
+                            <i data-lucide="tag" class="w-4 h-4 text-emerald-400"></i>
+                            <span>View Best Price Combos</span>
+                        </a>
+                    </div>
 
-              <div class="fintech-card-chip"></div>
-
-              <div class="card-number-display">
-                <span>4890</span>
-                <span>3290</span>
-                <span>8472</span>
-                <span>8219</span>
-              </div>
-
-              <div class="card-bottom-row">
-                <div class="card-holder-info">
-                  <span class="card-label">CARDHOLDER</span>
-                  <span class="card-holder-name">ALEXANDER VANCE</span>
+                    <!-- Quick Highlights -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-charcoal-800/80 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="text-xl sm:text-2xl font-serif font-bold text-amber-400">4.9 ★</p>
+                            <p class="text-xs text-cream-200/60">2,400+ Reviews</p>
+                        </div>
+                        <div>
+                            <p class="text-xl sm:text-2xl font-serif font-bold text-cream-50">₹149+</p>
+                            <p class="text-xs text-cream-200/60">Best Price Meals</p>
+                        </div>
+                        <div>
+                            <p class="text-xl sm:text-2xl font-serif font-bold text-cream-50">30 Min</p>
+                            <p class="text-xs text-cream-200/60">Fresh Table Service</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-exp-cvv">
-                  <div>
-                    <span class="card-label">EXPIRES</span>
-                    <div style="font-size: 0.88rem; font-weight: 600;">09/29</div>
-                  </div>
-                  <div>
-                    <span class="card-label">STATUS</span>
-                    <div style="font-size: 0.88rem; font-weight: 700; color: var(--accent-emerald);">SECURE</div>
-                  </div>
+
+                <!-- Hero Featured Visual Card -->
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-3xl overflow-hidden bg-charcoal-900 border border-charcoal-800 shadow-2xl p-3">
+                        <div class="relative rounded-2xl overflow-hidden aspect-[4/3]">
+                            <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900&h=600&fit=crop&auto=format&q=80" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/800x600/24211F/FBBF24?text=Saffron+%26+Ember+Royal+Feast'"
+                                 alt="Royal Indian Feast" 
+                                 class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-charcoal-950 via-charcoal-950/30 to-transparent"></div>
+                            <div class="absolute top-4 left-4 bg-amber-500 text-charcoal-950 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md">
+                                <i data-lucide="award" class="w-3.5 h-3.5"></i>
+                                <span>#1 BEST CHOICE</span>
+                            </div>
+                            <div class="absolute bottom-4 left-4 right-4 flex items-end justify-between">
+                                <div>
+                                    <p class="text-xs text-amber-400 font-medium uppercase tracking-wider">Chef's Masterpiece</p>
+                                    <h3 class="font-serif text-xl font-bold text-cream-50">Nizam's Saffron Dum Biryani</h3>
+                                </div>
+                                <div class="text-right">
+                                    <span class="text-xs text-cream-200/70 line-through block">₹549</span>
+                                    <span class="text-xl font-bold text-amber-400">₹449</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-
-            <!-- Floating AI Proactive Insight Card -->
-            <div class="floating-insight-card">
-              <div class="insight-header">
-                <div class="ai-indicator">
-                  <span class="ai-pulse-dot"></span>
-                  <span>SPHERE-AI ADVISOR</span>
-                </div>
-                <span class="badge badge-emerald" style="font-size: 0.65rem;">OPTIMIZED</span>
-              </div>
-              <p class="insight-text">
-                "Swept $1,250 excess cash into 5.4% High-Yield Vault. Anomaly check passed across 2,400 neural nodes."
-              </p>
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 0.72rem; color: var(--text-muted);">Est. Monthly Yield Boost</span>
-                <span class="insight-stat">+$248.80 / mo</span>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- ==========================================================================
-         Live Financial Ticker Section
-         ========================================================================== -->
-    <div class="ticker-section">
-      <div class="ticker-track">
-        <div class="ticker-item">
-          <span>🏛️ US TREASURY 3M YIELD:</span>
-          <span class="ticker-val-pos">5.42% APY (+0.08%)</span>
-        </div>
-        <div class="ticker-item">
-          <span>🛡️ FRAUD ATTEMPTS BLOCKED (24H):</span>
-          <span class="ticker-val-neutral">14,920 (100.0% Success)</span>
-        </div>
-        <div class="ticker-item">
-          <span>⚡ INSTANT SPHERE-RAIL SETTLEMENT:</span>
-          <span class="ticker-val-pos">&lt; 0.42 seconds</span>
-        </div>
-        <div class="ticker-item">
-          <span>🌐 GLOBAL MULTI-CURRENCY POOL:</span>
-          <span class="ticker-val-neutral">45 Currencies Active</span>
-        </div>
-        <div class="ticker-item">
-          <span>💼 TOTAL ASSETS UNDER INTELLIGENCE:</span>
-          <span class="ticker-val-pos">$14.28 Billion USD</span>
-        </div>
-        <div class="ticker-item">
-          <span>🔒 FDIC EXTENDED SWEEP INSURANCE:</span>
-          <span class="ticker-val-pos">Covered up to $5,000,000</span>
-        </div>
-        <!-- Duplicate for seamless loop -->
-        <div class="ticker-item">
-          <span>🏛️ US TREASURY 3M YIELD:</span>
-          <span class="ticker-val-pos">5.42% APY (+0.08%)</span>
-        </div>
-        <div class="ticker-item">
-          <span>🛡️ FRAUD ATTEMPTS BLOCKED (24H):</span>
-          <span class="ticker-val-neutral">14,920 (100.0% Success)</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ==========================================================================
-         Core Pillars / Features Section
-         ========================================================================== -->
-    <section id="features" class="section-pad">
-      <div class="container">
-        <div class="section-head">
-          <span class="badge badge-indigo">Engineered for Exponential Clarity</span>
-          <h2 class="section-title">
-            Banking Reimagined from the <span class="gradient-text">Algorithm Up</span>
-          </h2>
-          <p class="section-subtitle">
-            Traditional banks react after your money is spent. BankSphere AI anticipates your financial requirements, automating capital efficiency and eliminating friction.
-          </p>
-        </div>
-
-        <div class="features-grid">
-          <!-- Pillar 1 -->
-          <div class="feature-card">
-            <div class="feature-icon-box">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
-                <line x1="12" y1="6" x2="12" y2="8"></line>
-                <line x1="12" y1="16" x2="12" y2="18"></line>
-              </svg>
-            </div>
-            <h3 class="feature-title">Autonomous Treasury & 5.4% Yield</h3>
-            <p class="feature-desc">
-              Your capital never sits dormant. SphereAI continuously sweeps idle balances into diversified, high-liquidity government bills offering up to 5.4% APY with instantaneous liquidity.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Automated daily interest accrual</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Same-day unlimited withdrawals</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Pillar 2 -->
-          <div class="feature-card">
-            <div class="feature-icon-box" style="background: rgba(99, 102, 241, 0.1); color: #818CF8; border-color: rgba(99,102,241,0.25);">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                <line x1="12" y1="8" x2="12" y2="12"></line>
-                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-              </svg>
-            </div>
-            <h3 class="feature-title">Predictive AI Threat Shield</h3>
-            <p class="feature-desc">
-              Machine learning models analyze over 120 behavioral markers per millisecond. Malicious charges are neutralized before authorization, while genuine transactions pass without annoying false declines.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Zero-latency neuro-scoring</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Burner virtual cards for every merchant</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Pillar 3 -->
-          <div class="feature-card">
-            <div class="feature-icon-box" style="background: rgba(16, 185, 129, 0.1); color: #10B981; border-color: rgba(16,185,129,0.25);">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <line x1="2" y1="12" x2="22" y2="12"></line>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-              </svg>
-            </div>
-            <h3 class="feature-title">Global Multi-Currency Rails</h3>
-            <p class="feature-desc">
-              Hold, convert, and remit across 45+ currencies at real mid-market exchange rates without predatory bank markups. Settle wires in London, Tokyo, Frankfurt, or New York in sub-seconds.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Local IBAN, Routing, and Sort Codes</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Automated currency hedging & alerts</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Pillar 4 -->
-          <div class="feature-card">
-            <div class="feature-icon-box" style="background: rgba(245, 158, 11, 0.1); color: #F59E0B; border-color: rgba(245,158,11,0.25);">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-                <line x1="16" y1="13" x2="8" y2="13"></line>
-                <line x1="16" y1="17" x2="8" y2="17"></line>
-              </svg>
-            </div>
-            <h3 class="feature-title">Smart Invoicing & Corporate Cards</h3>
-            <p class="feature-desc">
-              Issue physical and virtual titanium cards for your entire team with custom per-merchant limits. Invoices are auto-matched with receipts via vision AI and synced directly to your ledger.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>1.5% Unlimited Cash Back on all card spend</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Zero-touch receipt OCR reconciliation</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Pillar 5 -->
-          <div class="feature-card">
-            <div class="feature-icon-box">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <line x1="18" y1="20" x2="18" y2="10"></line>
-                <line x1="12" y1="20" x2="12" y2="4"></line>
-                <line x1="6" y1="20" x2="6" y2="14"></line>
-              </svg>
-            </div>
-            <h3 class="feature-title">Predictive Cash Flow Runway</h3>
-            <p class="feature-desc">
-              SphereAI projects your cash balance 90 days into the future by modeling subscription cycles, upcoming supplier payments, client accounts receivables, and seasonal fluctuations.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Liquidity shortfall early warnings</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Recurring subscription bloat audit</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Pillar 6 -->
-          <div class="feature-card">
-            <div class="feature-icon-box" style="background: rgba(168, 85, 247, 0.1); color: #A855F7; border-color: rgba(168,85,247,0.25);">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-              </svg>
-            </div>
-            <h3 class="feature-title">24/7 SphereAI Financial Concierge</h3>
-            <p class="feature-desc">
-              Speak or chat with your dedicated AI banker anytime. Ask complex queries like "What is our burn rate this quarter?" or "Lock card 8219" and receive immediate, actionable resolution.
-            </p>
-            <ul class="feature-meta-list">
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Natural conversational banking commands</span>
-              </li>
-              <li class="feature-meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                <span>Zero wait times, human concierge escalation</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         Interactive Financial Calculators Section
-         ========================================================================== -->
-    <section id="calculators" class="section-pad" style="background: rgba(13, 20, 36, 0.4); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
-      <div class="container">
-        <div class="section-head">
-          <span class="badge badge-emerald">Interactive Intelligence</span>
-          <h2 class="section-title">
-            Model Your Growth with <span class="gradient-text">Precision Simulators</span>
-          </h2>
-          <p class="section-subtitle">
-            Experience the mathematical power of BankSphere AI. Adjust the sliders below to see your high-yield compound interest trajectory or calculate instant credit approval.
-          </p>
-        </div>
-
-        <div class="calculators-container">
-          <!-- Calculator 1: High Yield Savings Growth -->
-          <div class="glass-panel calc-card">
-            <div class="calc-header">
-              <div class="calc-title-box">
-                <div class="calc-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981; border-color: rgba(16,185,129,0.3);">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="12" y1="1" x2="12" y2="23"></line>
-                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                  </svg>
-                </div>
+    <!-- SECTION 1: BEST CHOICE (Chef's Specials & Most Popular) -->
+    <section id="best-choice" class="py-16 sm:py-20 bg-charcoal-900/50 border-b border-charcoal-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
                 <div>
-                  <h3 style="font-size: 1.25rem;">AI Compound Wealth Simulator</h3>
-                  <p style="font-size: 0.8rem; color: var(--text-secondary);">Calculated with 5.4% APY institutional sweep</p>
+                    <div class="inline-flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-widest mb-2">
+                        <i data-lucide="crown" class="w-4 h-4"></i>
+                        <span>Guest Favorites & Chef's Signature</span>
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-cream-50">Best Choice Selections</h2>
                 </div>
-              </div>
-              <span class="badge badge-emerald">5.4% APY</span>
+                <p class="text-cream-200/70 text-sm max-w-md">
+                    Our highest-rated, award-winning dishes crafted with premium saffron, aged basmati, and hand-ground spices.
+                </p>
             </div>
 
-            <div class="calc-controls">
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Initial Capital Deposit</span>
-                  <span id="savingsInitialVal" class="control-val-badge">$10,000</span>
-                </div>
-                <input type="range" id="savingsInitial" class="range-slider" min="1000" max="250000" step="1000" value="10000">
-              </div>
+            <!-- Best Choice Grid (Populated via JS) -->
+            <div id="best-choice-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+    </section>
 
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Monthly Automated Contribution</span>
-                  <span id="savingsMonthlyVal" class="control-val-badge">$1,000/mo</span>
-                </div>
-                <input type="range" id="savingsMonthly" class="range-slider" min="100" max="15000" step="100" value="1000">
-              </div>
-
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Growth Horizon (Years)</span>
-                  <span id="savingsYearsVal" class="control-val-badge">10 Years</span>
-                </div>
-                <input type="range" id="savingsYears" class="range-slider" min="1" max="30" step="1" value="10">
-              </div>
-
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Annual Yield Rate (APY)</span>
-                  <span id="savingsApyVal" class="control-val-badge">5.4% APY</span>
-                </div>
-                <input type="range" id="savingsApy" class="range-slider" min="3.0" max="8.0" step="0.1" value="5.4">
-              </div>
-            </div>
-
-            <div class="calc-results-box">
-              <div class="calc-res-item">
-                <span class="calc-res-label">Projected Net Wealth</span>
-                <span id="calcTotalValue" class="calc-res-value highlight-cyan">$186,420.00</span>
-              </div>
-              <div class="calc-res-item">
-                <span class="calc-res-label">Pure Compound Yield Earned</span>
-                <span id="calcInterestEarned" class="calc-res-value highlight-emerald">+$56,420.00</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Calculator 2: Instant Credit & Working Capital Simulator -->
-          <div class="glass-panel calc-card">
-            <div class="calc-header">
-              <div class="calc-title-box">
-                <div class="calc-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-                    <line x1="1" y1="10" x2="23" y2="10"></line>
-                  </svg>
-                </div>
+    <!-- SECTION 2: BEST PRICE (Value Deals & Combo Offers) -->
+    <section id="best-price" class="py-16 sm:py-20 bg-gradient-to-b from-charcoal-950 to-charcoal-900 border-b border-charcoal-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
                 <div>
-                  <h3 style="font-size: 1.25rem;">AI Credit & Capital Simulator</h3>
-                  <p style="font-size: 0.8rem; color: var(--text-secondary);">Instant automated approval with zero credit hits</p>
+                    <div class="inline-flex items-center gap-2 text-emerald-400 text-xs font-bold uppercase tracking-widest mb-2">
+                        <i data-lucide="badge-percent" class="w-4 h-4"></i>
+                        <span>Unbeatable Value • Pocket-Friendly Combos</span>
+                    </div>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-cream-50">Best Price Deals</h2>
                 </div>
-              </div>
-              <span class="badge badge-indigo">5.9% Prime APR</span>
+                <p class="text-cream-200/70 text-sm max-w-md">
+                    Wholesome meals and curated combos engineered for maximum satisfaction at our lowest everyday prices.
+                </p>
             </div>
 
-            <div class="calc-controls">
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Desired Credit Line / Working Capital</span>
-                  <span id="loanAmountVal" class="control-val-badge">$25,000</span>
-                </div>
-                <input type="range" id="loanAmount" class="range-slider" min="5000" max="250000" step="5000" value="25000">
-              </div>
-
-              <div class="control-group">
-                <div class="control-label-row">
-                  <span>Repayment Tenure</span>
-                  <span id="loanTenureVal" class="control-val-badge">36 Months</span>
-                </div>
-                <input type="range" id="loanTenure" class="range-slider" min="6" max="60" step="6" value="36">
-              </div>
-
-              <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); margin-top: 0.5rem;">
-                <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.4rem;">
-                  <span style="color: var(--text-secondary);">AI Algorithmic Approval Score:</span>
-                  <span id="loanApprovalRate" style="font-weight: 700; color: var(--accent-emerald);">99% Instant Pre-Approved</span>
-                </div>
-                <div style="font-size: 0.75rem; color: var(--text-muted);">
-                  Based on institutional real-time cashflow verification. Zero origination fee.
-                </div>
-              </div>
-            </div>
-
-            <div class="calc-results-box">
-              <div class="calc-res-item">
-                <span class="calc-res-label">Monthly Repayment</span>
-                <span id="loanMonthlyPayment" class="calc-res-value highlight-cyan">$759.35/mo</span>
-              </div>
-              <div class="calc-res-item">
-                <span class="calc-res-label">Total Financing Cost</span>
-                <span id="loanTotalCost" class="calc-res-value" style="color: var(--text-secondary);">$2,336.60</span>
-              </div>
-            </div>
-          </div>
+            <!-- Best Price Grid (Populated via JS) -->
+            <div id="best-price-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
         </div>
-      </div>
     </section>
 
-    <!-- ==========================================================================
-         Full Interactive Live Banking Portal Experience
-         ========================================================================== -->
-    <section id="portalSection" class="section-pad portal-showcase-section">
-      <div class="container container-wide">
-        <div class="section-head">
-          <span class="badge">
-            <span class="portal-dot" style="margin-right: 4px;"></span>
-            Full Interactive Demo
-          </span>
-          <h2 class="section-title">
-            The <span class="gradient-text">BankSphere AI</span> Banking Portal
-          </h2>
-          <p class="section-subtitle">
-            Interact with live balances, toggle card security, simulate instant smart transfers, and experience the conversational AI Copilot in real time.
-          </p>
+    <!-- SECTION 3: CATEGORIZED FULL MENU WITH PRICING TIERS -->
+    <section id="full-menu" class="py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-amber-400 text-xs font-bold uppercase tracking-widest">Explore Every Flavor</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-cream-50 mt-2">Categorized Culinary Menu</h2>
+                <p class="text-cream-200/70 text-sm mt-3">
+                    Filter by category or price tier to find the ideal dish for your appetite and budget.
+                </p>
+            </div>
+
+            <!-- Filter & Search Controls -->
+            <div class="bg-charcoal-900 border border-charcoal-800 rounded-2xl p-4 sm:p-5 mb-8 space-y-4">
+                <!-- Category Pills -->
+                <div class="flex items-center gap-2 overflow-x-auto pb-2 no-scrollbar" id="category-filters">
+                    <!-- Injected by JS -->
+                </div>
+
+                <!-- Secondary Filters: Price Tier & Search -->
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-3 border-t border-charcoal-800">
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="text-xs text-cream-200/60 mr-1 font-medium">Price Tier:</span>
+                        <button onclick="setPriceFilter('all')" data-price="all" class="price-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500 text-charcoal-950 transition-all">All Prices</button>
+                        <button onclick="setPriceFilter('budget')" data-price="budget" class="price-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-charcoal-800 text-cream-200 hover:bg-charcoal-700 transition-all">Best Price (Under ₹250)</button>
+                        <button onclick="setPriceFilter('mid')" data-price="mid" class="price-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-charcoal-800 text-cream-200 hover:bg-charcoal-700 transition-all">Classic (₹250 – ₹450)</button>
+                        <button onclick="setPriceFilter('premium')" data-price="premium" class="price-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-charcoal-800 text-cream-200 hover:bg-charcoal-700 transition-all">Royal Feast (₹450+)</button>
+                    </div>
+
+                    <!-- Search Box -->
+                    <div class="relative min-w-[220px]">
+                        <i data-lucide="search" class="w-4 h-4 text-cream-200/50 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+                        <input type="text" id="menu-search" oninput="renderFullMenu()" placeholder="Search dishes..." 
+                               class="w-full bg-charcoal-950 border border-charcoal-700 rounded-xl pl-10 pr-4 py-2 text-sm text-cream-50 placeholder-cream-200/40 focus:outline-none focus:border-amber-500 transition-colors">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Items Grid -->
+            <div id="menu-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Populated via JS -->
+            </div>
+
+            <!-- Empty Search State -->
+            <div id="empty-menu-state" class="hidden text-center py-16 bg-charcoal-900/50 rounded-2xl border border-charcoal-800">
+                <i data-lucide="utensils-crossed" class="w-10 h-10 text-amber-400/60 mx-auto mb-3"></i>
+                <h3 class="font-serif text-xl font-semibold text-cream-50">No dishes match your filter</h3>
+                <p class="text-sm text-cream-200/60 mt-1">Try resetting the category or price tier filters.</p>
+                <button onclick="resetFilters()" class="mt-4 px-5 py-2 rounded-xl bg-amber-500 text-charcoal-950 text-sm font-semibold hover:bg-amber-400 transition-colors">
+                    Reset All Filters
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: TABLE RESERVATION -->
+    <section id="reservation" class="py-16 sm:py-24 bg-charcoal-900 border-t border-charcoal-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-charcoal-950 border border-charcoal-800 rounded-3xl overflow-hidden shadow-2xl grid lg:grid-cols-12">
+                <!-- Left Info Column -->
+                <div class="lg:col-span-5 bg-gradient-to-br from-charcoal-800 to-charcoal-900 p-8 sm:p-10 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-charcoal-800">
+                    <div class="space-y-4">
+                        <span class="inline-flex items-center gap-1.5 text-amber-400 text-xs font-bold uppercase tracking-widest">
+                            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                            <span>Dine With Us</span>
+                        </span>
+                        <h2 class="font-serif text-3xl font-bold text-cream-50">Reserve Your Table</h2>
+                        <p class="text-cream-200/75 text-sm leading-relaxed">
+                            Experience warm hospitality, live tandoor aromas, and curated tasting menus. Book ahead for family dinners, celebrations, or business lunches.
+                        </p>
+                    </div>
+
+                    <div class="space-y-4 my-8 text-sm">
+                        <div class="flex items-start gap-3">
+                            <div class="w-9 h-9 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="map-pin" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-cream-50">Location</p>
+                                <p class="text-cream-200/60">14 Heritage Avenue, Hazratganj, Lucknow</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-9 h-9 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="clock" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-cream-50">Opening Hours</p>
+                                <p class="text-cream-200/60">Mon – Sun: 12:00 PM – 11:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="w-9 h-9 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="phone" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-cream-50">Direct Desk</p>
+                                <p class="text-cream-200/60">+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-charcoal-950/70 border border-amber-500/20 text-xs text-cream-200/80">
+                        <span class="text-amber-400 font-semibold">Complimentary Perk:</span> Online table bookings receive a welcome Saffron Rose Sharbat on arrival.
+                    </div>
+                </div>
+
+                <!-- Right Booking Form -->
+                <div class="lg:col-span-7 p-8 sm:p-10">
+                    <form id="reservation-form" onsubmit="handleReservation(event)" class="space-y-5">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Full Name *</label>
+                                <input type="text" id="res-name" required placeholder="e.g. Aarav Sharma"
+                                       class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Phone Number *</label>
+                                <input type="tel" id="res-phone" required placeholder="+91 98XXX XXXXX"
+                                       class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                            <div>
+                                <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Date *</label>
+                                <input type="date" id="res-date" required
+                                       class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Time Slot *</label>
+                                <select id="res-time" required
+                                        class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500">
+                                    <option value="1:00 PM">1:00 PM (Lunch)</option>
+                                    <option value="2:30 PM">2:30 PM (Lunch)</option>
+                                    <option value="7:30 PM">7:30 PM (Dinner)</option>
+                                    <option value="8:30 PM" selected>8:30 PM (Prime Dinner)</option>
+                                    <option value="9:30 PM">9:30 PM (Late Dinner)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Guests *</label>
+                                <select id="res-guests" required
+                                        class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500">
+                                    <option value="2 Guests">2 Guests</option>
+                                    <option value="4 Guests" selected>4 Guests</option>
+                                    <option value="6 Guests">6 Guests</option>
+                                    <option value="8+ Guests">8+ Guests (Family)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-medium text-cream-200/80 mb-1.5">Special Requests (Optional)</label>
+                            <textarea id="res-notes" rows="2" placeholder="Window seat, birthday celebration, mild spice preference..."
+                                      class="w-full bg-charcoal-900 border border-charcoal-700 rounded-xl px-4 py-3 text-sm text-cream-50 focus:outline-none focus:border-amber-500"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-charcoal-950 font-bold text-sm shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center gap-2">
+                            <i data-lucide="check-circle-2" class="w-4 h-4"></i>
+                            <span>Confirm Table Reservation</span>
+                        </button>
+                    </form>
+
+                    <!-- Booking Confirmation Card (Hidden initially) -->
+                    <div id="reservation-confirmation" class="hidden bg-charcoal-900 border border-emerald-500/40 rounded-2xl p-6 text-center space-y-4">
+                        <div class="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+                            <i data-lucide="check" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-cream-50">Table Reserved!</h3>
+                        <p id="reservation-summary-text" class="text-sm text-cream-200/80 leading-relaxed"></p>
+                        <button onclick="resetReservationForm()" class="px-5 py-2.5 rounded-xl bg-charcoal-800 hover:bg-charcoal-700 text-cream-50 text-xs font-semibold transition-colors">
+                            Book Another Table
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal-950 border-t border-charcoal-800 py-10 text-center sm:text-left">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+                <i data-lucide="flame" class="w-5 h-5 text-amber-400"></i>
+                <span class="font-serif text-lg font-bold text-cream-50">Saffron & Ember</span>
+            </div>
+            <p class="text-xs text-cream-200/50">© 2026 Saffron & Ember Royal Kitchen. Crafted by Garima Singh.</p>
+        </div>
+    </footer>
+
+    <!-- SLIDE-OVER SHOPPING CART / ORDER DRAWER -->
+    <div id="cart-overlay" onclick="toggleCart(false)" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+    <aside id="cart-drawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-charcoal-900 border-l border-charcoal-800 z-50 transform translate-x-full transition-transform duration-300 flex flex-col shadow-2xl">
+        <!-- Drawer Header -->
+        <div class="p-5 border-b border-charcoal-800 flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <i data-lucide="shopping-bag" class="w-5 h-5 text-amber-400"></i>
+                <h3 class="font-serif text-xl font-bold text-cream-50">Your Order</h3>
+            </div>
+            <button onclick="toggleCart(false)" class="p-2 rounded-lg bg-charcoal-800 hover:bg-charcoal-700 text-cream-200">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
         </div>
 
-        <div class="portal-frame">
-          <!-- Top simulated browser bar -->
-          <div class="portal-browser-topbar">
-            <div class="browser-dots">
-              <div class="browser-dot dot-red"></div>
-              <div class="browser-dot dot-yellow"></div>
-              <div class="browser-dot dot-green"></div>
+        <!-- Cart Items List -->
+        <div id="cart-items-container" class="flex-1 overflow-y-auto p-5 space-y-4">
+            <!-- Populated by JS -->
+        </div>
+
+        <!-- Cart Footer / Bill Summary -->
+        <div id="cart-footer" class="p-5 bg-charcoal-950 border-t border-charcoal-800 space-y-4">
+            <div class="space-y-2 text-sm">
+                <div class="flex justify-between text-cream-200/70">
+                    <span>Item Subtotal</span>
+                    <span id="cart-subtotal">₹0</span>
+                </div>
+                <div class="flex justify-between text-cream-200/70">
+                    <span>GST & Packaging (5%)</span>
+                    <span id="cart-tax">₹0</span>
+                </div>
+                <div class="flex justify-between text-emerald-400 text-xs font-medium" id="cart-savings-row">
+                    <span>Best Price Savings Applied</span>
+                    <span id="cart-savings">-₹0</span>
+                </div>
+                <div class="flex justify-between text-base font-bold text-cream-50 pt-2 border-t border-charcoal-800">
+                    <span>Grand Total</span>
+                    <span id="cart-total" class="text-amber-400 text-lg">₹0</span>
+                </div>
             </div>
 
-            <div class="browser-address">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-              </svg>
-              <span>https://secure.banksphere.ai/portal/overview</span>
-            </div>
+            <button onclick="checkoutOrder()" id="checkout-btn" class="w-full py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 disabled:opacity-40 disabled:cursor-not-allowed text-charcoal-950 font-bold text-sm shadow-lg shadow-amber-500/20 transition-all flex items-center justify-center gap-2">
+                <span>Place Order Now</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+        </div>
+    </aside>
 
-            <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: var(--accent-emerald);">
-              <span class="portal-dot"></span>
-              <span>Autonomous Defense Online</span>
-            </div>
-          </div>
+    <!-- Custom Toast Notification (Replaces alert) -->
+    <div id="toast" class="fixed bottom-5 left-1/2 -translate-x-1/2 z-50 bg-charcoal-800 border border-amber-500/50 text-cream-50 px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-3 text-sm font-medium opacity-0 pointer-events-none transition-all duration-300 translate-y-4">
+        <i data-lucide="check-circle" class="w-4 h-4 text-amber-400 shrink-0"></i>
+        <span id="toast-message">Item added to order</span>
+    </div>
 
-          <!-- Application Workspace -->
-          <div class="portal-app-wrapper">
-            <!-- Sidebar Navigation -->
-            <aside class="portal-sidebar">
-              <div>
-                <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 2rem; padding: 0 0.5rem;">
-                  <div style="width: 28px; height: 28px; border-radius: 50%; background: var(--gradient-sphere); display: flex; align-items: center; justify-content: center;">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path></svg>
-                  </div>
-                  <span style="font-weight: 800; font-family: var(--font-display); font-size: 1.05rem;">Sphere Workspace</span>
-                </div>
+    <!-- JavaScript Application Logic -->
+    <script>
+        // Comprehensive Menu Data with Distinct Categories, Pricing Tiers, Best Choice & Best Price tags
+        const menuData = [
+            // BEST CHOICE ITEMS (Chef's Specials)
+            {
+                id: 1,
+                name: "Nizam's Saffron Dum Biryani",
+                category: "Biryanis & Rice",
+                price: 449,
+                originalPrice: 549,
+                tier: "mid",
+                badge: "Best Choice",
+                isVeg: false,
+                rating: "4.9",
+                description: "Long-grain aged basmati layered with tender spiced meat, caramelized onions, and Kashmiri saffron.",
+                image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 2,
+                name: "Smoked Malai Paneer Tikka Platter",
+                category: "Tandoor & Grills",
+                price: 369,
+                originalPrice: 429,
+                tier: "mid",
+                badge: "Best Choice",
+                isVeg: true,
+                rating: "4.8",
+                description: "Char-grilled cottage cheese cubes marinated in hung curd, cardamom, and roasted cashew paste.",
+                image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 3,
+                name: "Royal Butter Chicken & Garlic Naan",
+                category: "Main Course",
+                price: 489,
+                originalPrice: 560,
+                tier: "premium",
+                badge: "Best Choice",
+                isVeg: false,
+                rating: "4.9",
+                description: "Velvety tomato-fenugreek gravy with tandoor-roasted chicken tikka, served with 2 butter garlic naans.",
+                image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=700&h=500&fit=crop&auto=format&q=80"
+            },
 
-                <ul class="portal-nav-menu">
-                  <li class="portal-nav-item active">
-                    <button data-tab="dashboard">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-                      Dashboard
-                    </button>
-                  </li>
-                  <li class="portal-nav-item">
-                    <button data-tab="transfers" data-action="open-transfer">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                      Send & Wire
-                    </button>
-                  </li>
-                  <li class="portal-nav-item">
-                    <button data-tab="savings">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path><line x1="12" y1="6" x2="12" y2="8"></line><line x1="12" y1="16" x2="12" y2="18"></line></svg>
-                      5.4% Yield Vault
-                    </button>
-                  </li>
-                  <li class="portal-nav-item">
-                    <button data-tab="cards">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-                      Cards & Limits
-                    </button>
-                  </li>
-                  <li class="portal-nav-item">
-                    <button data-tab="analytics">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
-                      Cashflow Analytics
-                    </button>
-                  </li>
-                  <li class="portal-nav-item">
-                    <button data-tab="invoices">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
-                      Invoices & Tax
-                    </button>
-                  </li>
-                </ul>
-              </div>
+            // BEST PRICE ITEMS (Value Deals & Combos)
+            {
+                id: 4,
+                name: "Executive Dal Makhani & Jeera Rice Bowl",
+                category: "Main Course",
+                price: 179,
+                originalPrice: 249,
+                tier: "budget",
+                badge: "Best Price",
+                isVeg: true,
+                rating: "4.7",
+                description: "24-hour slow-simmered black lentils finished with white butter, paired with aromatic cumin rice.",
+                image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 5,
+                name: "Crispy Tandoori Momos & Mint Dip (8 Pcs)",
+                category: "Starters",
+                price: 149,
+                originalPrice: 199,
+                tier: "budget",
+                badge: "Best Price",
+                isVeg: true,
+                rating: "4.8",
+                description: "Clay-oven roasted dumplings tossed in smoky peri-peri masala with house mint chutney.",
+                image: "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 6,
+                name: "Street-Style Chicken Tikka Roll Combo",
+                category: "Starters",
+                price: 199,
+                originalPrice: 269,
+                tier: "budget",
+                badge: "Best Price",
+                isVeg: false,
+                rating: "4.7",
+                description: "Flaky lachha paratha wrapped around smoky chicken tikka, pickled onions, and chilled masala cola.",
+                image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=700&h=500&fit=crop&auto=format&q=80"
+            },
 
-              <!-- User Profile Badge -->
-              <div class="portal-user-badge">
-                <div class="user-avatar">AV</div>
-                <div class="user-info">
-                  <span class="user-name">Alexander Vance</span>
-                  <span class="user-tier">Sphere Titan Member</span>
-                </div>
-              </div>
-            </aside>
+            // ADDITIONAL CATEGORIZED ITEMS ACROSS ALL TIERS
+            {
+                id: 7,
+                name: "Awadhi Subz Dum Biryani (Veg)",
+                category: "Biryanis & Rice",
+                price: 299,
+                originalPrice: null,
+                tier: "mid",
+                badge: null,
+                isVeg: true,
+                rating: "4.6",
+                description: "Seasonal garden vegetables, paneer, and mint cooked on dum with rosewater-infused basmati.",
+                image: "https://images.unsplash.com/photo-1642821373181-696a54913e93?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 8,
+                name: "Ember Mixed Grill Royal Platter",
+                category: "Tandoor & Grills",
+                price: 699,
+                originalPrice: 799,
+                tier: "premium",
+                badge: "Best Choice",
+                isVeg: false,
+                rating: "4.9",
+                description: "Grand assortment of Seekh Kebabs, Murgh Malai Tikka, Tandoori Prawns, and Lamb Chops.",
+                image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 9,
+                name: "Paneer Lababdar & 2 Tandoori Rotis",
+                category: "Main Course",
+                price: 239,
+                originalPrice: 289,
+                tier: "budget",
+                badge: "Best Price",
+                isVeg: true,
+                rating: "4.7",
+                description: "Rich onion-tomato gravy studded with grated cottage cheese and whole wheat tandoori rotis.",
+                image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 10,
+                name: "Saffron Shahi Tukda & Rabri",
+                category: "Desserts",
+                price: 189,
+                originalPrice: null,
+                tier: "budget",
+                badge: "Best Choice",
+                isVeg: true,
+                rating: "4.9",
+                description: "Ghee-toasted brioche soaked in cardamom syrup, topped with reduced pistachio milk rabri.",
+                image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 11,
+                name: "Warm Gulab Jamun with Vanilla Bean",
+                category: "Desserts",
+                price: 159,
+                originalPrice: 199,
+                tier: "budget",
+                badge: "Best Price",
+                isVeg: true,
+                rating: "4.8",
+                description: "Two melt-in-the-mouth khoya dumplings served warm alongside artisanal vanilla ice cream.",
+                image: "https://images.unsplash.com/photo-1589119908995-c6837fa14848?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 12,
+                name: "Smoked Mango & Mint Mojito",
+                category: "Beverages",
+                price: 149,
+                originalPrice: null,
+                tier: "budget",
+                badge: null,
+                isVeg: true,
+                rating: "4.7",
+                description: "Alphonso mango puree muddled with fresh garden mint, lime juice, and sparkling soda.",
+                image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 13,
+                name: "Royal Saffron Badam Thandai",
+                category: "Beverages",
+                price: 179,
+                originalPrice: 210,
+                tier: "budget",
+                badge: "Best Choice",
+                isVeg: true,
+                rating: "4.8",
+                description: "Chilled almond and poppy-seed milk infused with crushed peppercorns, rose petals, and saffron.",
+                image: "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 14,
+                name: "Mutton Rogan Josh (Kashmiri Style)",
+                category: "Main Course",
+                price: 529,
+                originalPrice: null,
+                tier: "premium",
+                badge: null,
+                isVeg: false,
+                rating: "4.8",
+                description: "Braised lamb shanks cooked with Kashmiri red chillies, fennel powder, and aromatic spices.",
+                image: "https://images.unsplash.com/photo-1545247181-516773cae754?w=700&h=500&fit=crop&auto=format&q=80"
+            },
+            {
+                id: 15,
+                name: "Dahi Ke Kebab (6 Pcs)",
+                category: "Starters",
+                price: 279,
+                originalPrice: null,
+                tier: "mid",
+                badge: null,
+                isVeg: true,
+                rating: "4.7",
+                description: "Crispy golden patties crafted from hung yogurt, ginger, green chillies, and roasted gram flour.",
+                image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=700&h=500&fit=crop&auto=format&q=80"
+            }
+        ];
 
-            <!-- Main Portal Dashboard Area -->
-            <div class="portal-main">
-              <!-- Portal Header Row -->
-              <div class="portal-header-row">
-                <div class="portal-welcome-text">
-                  <h2>Welcome back, Alexander 👋</h2>
-                  <p>All institutional yield sweeps executed. Neural threat detector reported 0 incidents.</p>
-                </div>
+        // State Variables
+        let activeCategory = "All";
+        let activePriceTier = "all";
+        let cart = [];
 
-                <div class="portal-actions-row">
-                  <button class="btn btn-secondary btn-sm" id="cardFreezeToggle">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                    Freeze Card
-                  </button>
+        // Initialize Page
+        document.addEventListener("DOMContentLoaded", () => {
+            // Set minimum date for reservation to today
+            const dateInput = document.getElementById("res-date");
+            if (dateInput) {
+                const today = new Date().toISOString().split("T")[0];
+                dateInput.value = today;
+                dateInput.min = today;
+            }
 
-                  <button class="btn btn-emerald btn-sm" data-action="open-transfer">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                    New Transfer
-                  </button>
-                </div>
-              </div>
+            renderFeaturedSections();
+            renderCategoryPills();
+            renderFullMenu();
+            updateCartUI();
+            lucide.createIcons();
+        });
 
-              <!-- 4 Overview Stat Cards -->
-              <div class="portal-stats-grid">
-                <!-- Net Worth -->
-                <div class="stat-card">
-                  <div class="stat-card-head">
-                    <span class="stat-label">Total Net Portfolio</span>
-                    <div class="stat-icon" style="background: rgba(0, 242, 254, 0.15); color: var(--accent-cyan);">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                    </div>
-                  </div>
-                  <div id="portalTotalBalance" class="stat-val">$148,920.85</div>
-                  <div class="stat-sub">
-                    <span class="stat-growth">+14.2%</span>
-                    <span style="color: var(--text-muted);">vs. last month</span>
-                  </div>
-                </div>
+        // Create Reusable Dish Card HTML
+        function createDishCard(item) {
+            const discountPercent = item.originalPrice 
+                ? Math.round(((item.originalPrice - item.price) / item.originalPrice) * 100) 
+                : 0;
 
-                <!-- Operating Checking -->
-                <div class="stat-card">
-                  <div class="stat-card-head">
-                    <span class="stat-label">Operating Checking</span>
-                    <div class="stat-icon" style="background: rgba(99, 102, 241, 0.15); color: #818CF8;">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-                    </div>
-                  </div>
-                  <div id="portalCheckingBalance" class="stat-val">$28,450.75</div>
-                  <div class="stat-sub">
-                    <span style="color: var(--accent-cyan);">Instant Liquidity</span>
-                  </div>
-                </div>
+            let badgeHTML = "";
+            if (item.badge === "Best Choice") {
+                badgeHTML = `
+                    <span class="bg-amber-500 text-charcoal-950 text-[11px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 shadow-md">
+                        <i data-lucide="crown" class="w-3 h-3"></i> Best Choice
+                    </span>`;
+            } else if (item.badge === "Best Price") {
+                badgeHTML = `
+                    <span class="bg-emerald-500 text-charcoal-950 text-[11px] font-bold px-2.5 py-1 rounded-full flex items-center gap-1 shadow-md">
+                        <i data-lucide="tag" class="w-3 h-3"></i> Best Price ${discountPercent > 0 ? `• ${discountPercent}% OFF` : ''}
+                    </span>`;
+            }
 
-                <!-- High-Yield Savings -->
-                <div class="stat-card">
-                  <div class="stat-card-head">
-                    <span class="stat-label">5.4% High-Yield Vault</span>
-                    <div class="stat-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                    </div>
-                  </div>
-                  <div id="portalSavingsBalance" class="stat-val" style="color: var(--accent-emerald);">$84,320.10</div>
-                  <div class="stat-sub">
-                    <span class="stat-growth">+$379.44</span>
-                    <span style="color: var(--text-muted);">earned this month</span>
-                  </div>
-                </div>
+            const vegIndicator = item.isVeg
+                ? `<span class="w-4 h-4 rounded-sm border border-emerald-500 flex items-center justify-center shrink-0" title="Vegetarian"><span class="w-2 h-2 rounded-full bg-emerald-500"></span></span>`
+                : `<span class="w-4 h-4 rounded-sm border border-rose-500 flex items-center justify-center shrink-0" title="Non-Vegetarian"><span class="w-2 h-2 rounded-full bg-rose-500"></span></span>`;
 
-                <!-- Treasury & Capital Reserve -->
-                <div class="stat-card">
-                  <div class="stat-card-head">
-                    <span class="stat-label">Strategic Reserves</span>
-                    <div class="stat-icon" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B;">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-                    </div>
-                  </div>
-                  <div id="portalVaultBalance" class="stat-val">$24,150.00</div>
-                  <div class="stat-sub">
-                    <span style="color: var(--text-muted);">T-Bills & Hedged FX</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Interactive Dashboard Charts & AI Copilot Row -->
-              <div class="portal-dashboard-grid">
-                <!-- Cash Flow Trends Chart -->
-                <div class="glass-panel chart-card">
-                  <div class="chart-card-head">
+            return `
+                <div class="group bg-charcoal-900 border border-charcoal-800 hover:border-amber-500/40 rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 shadow-lg">
                     <div>
-                      <h3 style="font-size: 1.15rem;">Cash Flow & Yield Trajectory</h3>
-                      <p style="font-size: 0.8rem; color: var(--text-secondary);">Real-time revenue inflow vs. operational expenditure</p>
+                        <!-- Image Header -->
+                        <div class="relative h-48 overflow-hidden bg-charcoal-800">
+                            <img src="${item.image}" 
+                                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/24211F/FBBF24?text=${encodeURIComponent(item.name)}'"
+                                 alt="${item.name}" 
+                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-transparent to-black/30"></div>
+                            
+                            <!-- Top Badges -->
+                            <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
+                                <div>${badgeHTML}</div>
+                                <span class="bg-charcoal-950/85 backdrop-blur-md text-amber-400 text-xs font-semibold px-2.5 py-1 rounded-lg flex items-center gap-1 border border-charcoal-700">
+                                    ★ ${item.rating}
+                                </span>
+                            </div>
+
+                            <!-- Category Tag -->
+                            <span class="absolute bottom-3 left-3 text-[11px] font-medium uppercase tracking-wider text-cream-200/90 bg-charcoal-950/80 backdrop-blur-sm px-2.5 py-0.5 rounded-md border border-charcoal-800">
+                                ${item.category}
+                            </span>
+                        </div>
+
+                        <!-- Card Body -->
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-2 mb-2">
+                                <div class="flex items-center gap-2">
+                                    ${vegIndicator}
+                                    <h3 class="font-serif text-lg font-bold text-cream-50 group-hover:text-amber-400 transition-colors leading-snug">
+                                        ${item.name}
+                                    </h3>
+                                </div>
+                            </div>
+                            <p class="text-xs text-cream-200/70 leading-relaxed line-clamp-2">
+                                ${item.description}
+                            </p>
+                        </div>
                     </div>
-                    <span class="badge badge-emerald">Real-Time Sync</span>
-                  </div>
-                  <div class="chart-canvas-wrap">
-                    <canvas id="cashflowChart"></canvas>
-                  </div>
+
+                    <!-- Card Footer: Price & Add Button -->
+                    <div class="px-5 pb-5 pt-3 border-t border-charcoal-800/80 flex items-center justify-between">
+                        <div>
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-xl font-bold text-cream-50">₹${item.price}</span>
+                                ${item.originalPrice ? `<span class="text-xs text-cream-200/40 line-through">₹${item.originalPrice}</span>` : ''}
+                            </div>
+                            <span class="text-[11px] text-cream-200/50 capitalize">${item.tier === 'budget' ? 'Value Tier' : item.tier === 'mid' ? 'Classic Tier' : 'Royal Tier'}</span>
+                        </div>
+
+                        <button onclick="addToCart(${item.id})" 
+                                class="px-4 py-2.5 rounded-xl bg-charcoal-800 hover:bg-amber-500 text-amber-400 hover:text-charcoal-950 border border-amber-500/30 hover:border-amber-500 font-semibold text-xs flex items-center gap-1.5 transition-all active:scale-95">
+                            <i data-lucide="plus" class="w-4 h-4"></i>
+                            <span>Add to Order</span>
+                        </button>
+                    </div>
                 </div>
+            `;
+        }
 
-                <!-- SphereAI Copilot Widget -->
-                <div class="portal-ai-copilot">
-                  <div>
-                    <div class="copilot-header">
-                      <div class="copilot-avatar">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.2"><path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                      </div>
-                      <div>
-                        <h4 style="font-size: 0.95rem; font-weight: 700;">SphereAI Financial Copilot</h4>
-                        <span style="font-size: 0.75rem; color: var(--accent-cyan);">Active Optimization</span>
-                      </div>
+        // Render Best Choice & Best Price Sections
+        function renderFeaturedSections() {
+            const bestChoiceItems = menuData.filter(item => item.badge === "Best Choice").slice(0, 3);
+            const bestPriceItems = menuData.filter(item => item.badge === "Best Price").slice(0, 3);
+
+            document.getElementById("best-choice-grid").innerHTML = bestChoiceItems.map(createDishCard).join("");
+            document.getElementById("best-price-grid").innerHTML = bestPriceItems.map(createDishCard).join("");
+        }
+
+        // Render Category Filter Buttons
+        function renderCategoryPills() {
+            const categories = ["All", ...new Set(menuData.map(item => item.category))];
+            const container = document.getElementById("category-filters");
+            
+            container.innerHTML = categories.map(cat => {
+                const isActive = cat === activeCategory;
+                return `
+                    <button onclick="setCategory('${cat}')" 
+                            class="whitespace-nowrap px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                                isActive 
+                                ? 'bg-amber-500 text-charcoal-950 shadow-md shadow-amber-500/20' 
+                                : 'bg-charcoal-800 text-cream-200 hover:bg-charcoal-700'
+                            }">
+                        ${cat}
+                    </button>
+                `;
+            }).join("");
+        }
+
+        // Set Active Category
+        function setCategory(category) {
+            activeCategory = category;
+            renderCategoryPills();
+            renderFullMenu();
+        }
+
+        // Set Active Price Tier
+        function setPriceFilter(tier) {
+            activePriceTier = tier;
+            document.querySelectorAll(".price-filter-btn").forEach(btn => {
+                if (btn.dataset.price === tier) {
+                    btn.className = "price-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500 text-charcoal-950 transition-all";
+                } else {
+                    btn.className = "price-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-charcoal-800 text-cream-200 hover:bg-charcoal-700 transition-all";
+                }
+            });
+            renderFullMenu();
+        }
+
+        // Reset Filters
+        function resetFilters() {
+            activeCategory = "All";
+            activePriceTier = "all";
+            document.getElementById("menu-search").value = "";
+            renderCategoryPills();
+            setPriceFilter("all");
+        }
+
+        // Render Full Menu Grid with Filters
+        function renderFullMenu() {
+            const searchQuery = document.getElementById("menu-search").value.toLowerCase().trim();
+            const grid = document.getElementById("menu-grid");
+            const emptyState = document.getElementById("empty-menu-state");
+
+            const filtered = menuData.filter(item => {
+                const matchesCat = activeCategory === "All" || item.category === activeCategory;
+                const matchesTier = activePriceTier === "all" || item.tier === activePriceTier;
+                const matchesSearch = item.name.toLowerCase().includes(searchQuery) || 
+                                      item.description.toLowerCase().includes(searchQuery) ||
+                                      item.category.toLowerCase().includes(searchQuery);
+                return matchesCat && matchesTier && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = "";
+                emptyState.classList.remove("hidden");
+            } else {
+                emptyState.classList.add("hidden");
+                grid.innerHTML = filtered.map(createDishCard).join("");
+            }
+            lucide.createIcons();
+        }
+
+        // Cart Logic
+        function addToCart(itemId) {
+            const dish = menuData.find(i => i.id === itemId);
+            if (!dish) return;
+
+            const existing = cart.find(c => c.id === itemId);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({ ...dish, qty: 1 });
+            }
+
+            updateCartUI();
+            showToast(`Added "${dish.name}" to your order`);
+        }
+
+        function updateQuantity(itemId, delta) {
+            const index = cart.findIndex(c => c.id === itemId);
+            if (index === -1) return;
+
+            cart[index].qty += delta;
+            if (cart[index].qty <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const container = document.getElementById("cart-items-container");
+            const badge = document.getElementById("cart-badge");
+            const checkoutBtn = document.getElementById("checkout-btn");
+
+            const totalCount = cart.reduce((sum, item) => sum + item.qty, 0);
+            badge.textContent = totalCount;
+
+            if (cart.length === 0) {
+                container.innerHTML = `
+                    <div class="h-full flex flex-col items-center justify-center text-center py-12">
+                        <div class="w-16 h-16 rounded-2xl bg-charcoal-800 flex items-center justify-center text-cream-200/40 mb-4">
+                            <i data-lucide="shopping-bag" class="w-8 h-8"></i>
+                        </div>
+                        <p class="font-serif text-lg font-semibold text-cream-50">Your order plate is empty</p>
+                        <p class="text-xs text-cream-200/60 mt-1 max-w-xs">Explore our Best Choice specials or Best Price combos to begin your feast.</p>
                     </div>
-
-                    <div class="copilot-tip-box">
-                      <div class="copilot-tip-title">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-                        Automated Yield Opportunity
-                      </div>
-                      <p class="copilot-tip-text">
-                        You have $6,200 resting in checking beyond your safety buffer. Sweeping this into your 5.4% vault will earn you an extra $27.90 every 30 days.
-                      </p>
+                `;
+                document.getElementById("cart-subtotal").textContent = "₹0";
+                document.getElementById("cart-tax").textContent = "₹0";
+                document.getElementById("cart-savings").textContent = "-₹0";
+                document.getElementById("cart-total").textContent = "₹0";
+                checkoutBtn.disabled = true;
+            } else {
+                checkoutBtn.disabled = false;
+                container.innerHTML = cart.map(item => `
+                    <div class="bg-charcoal-950 border border-charcoal-800 rounded-xl p-3.5 flex items-center justify-between gap-3">
+                        <div class="flex-1 min-w-0">
+                            <h4 class="font-semibold text-sm text-cream-50 truncate">${item.name}</h4>
+                            <p class="text-xs text-amber-400 font-medium mt-0.5">₹${item.price} × ${item.qty} = ₹${item.price * item.qty}</p>
+                        </div>
+                        <div class="flex items-center gap-2 bg-charcoal-900 border border-charcoal-700 rounded-lg p-1">
+                            <button onclick="updateQuantity(${item.id}, -1)" class="w-7 h-7 rounded-md hover:bg-charcoal-800 flex items-center justify-center text-cream-200">
+                                <i data-lucide="minus" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <span class="text-xs font-bold w-5 text-center">${item.qty}</span>
+                            <button onclick="updateQuantity(${item.id}, 1)" class="w-7 h-7 rounded-md hover:bg-charcoal-800 flex items-center justify-center text-amber-400">
+                                <i data-lucide="plus" class="w-3.5 h-3.5"></i>
+                            </button>
+                        </div>
                     </div>
+                `).join("");
 
-                    <div class="copilot-tip-box" style="margin-bottom: 0;">
-                      <div class="copilot-tip-title" style="color: var(--accent-emerald);">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        Recurring Subscription Audited
-                      </div>
-                      <p class="copilot-tip-text">
-                        Detected 2 redundant video editing subscriptions ($78/mo total). Click below to have SphereAI automatically cancel them for you.
-                      </p>
-                    </div>
-                  </div>
+                const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+                const savings = cart.reduce((sum, item) => {
+                    const diff = item.originalPrice ? (item.originalPrice - item.price) : 0;
+                    return sum + (diff * item.qty);
+                }, 0);
+                const tax = Math.round(subtotal * 0.05);
+                const total = subtotal + tax;
 
-                  <button class="btn btn-primary btn-sm" style="width: 100%; margin-top: 1rem;" onclick="appendChatMessage('assistant', 'I have initiated automated cancellation requests for the redundant subscriptions, saving $936 annually.'); document.getElementById('aiChatWindow').classList.remove('hidden');">
-                    Execute Recommended Actions
-                  </button>
-                </div>
-              </div>
+                document.getElementById("cart-subtotal").textContent = `₹${subtotal}`;
+                document.getElementById("cart-tax").textContent = `₹${tax}`;
+                document.getElementById("cart-savings").textContent = `-₹${savings}`;
+                document.getElementById("cart-total").textContent = `₹${total}`;
+            }
+            lucide.createIcons();
+        }
 
-              <!-- Interactive Card Management Widget + Spending Breakdown -->
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
-                <!-- Virtual Card Controls -->
-                <div class="glass-panel" style="padding: 1.6rem; border-radius: var(--radius-md);">
-                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem;">
-                    <div>
-                      <h3 style="font-size: 1.15rem;">Titanium Card Security</h3>
-                      <p style="font-size: 0.8rem; color: var(--text-secondary);">Manage physical & virtual card status</p>
-                    </div>
-                    <span id="cardStatusBadge" class="badge badge-emerald">ACTIVE</span>
-                  </div>
+        function toggleCart(open) {
+            const overlay = document.getElementById("cart-overlay");
+            const drawer = document.getElementById("cart-drawer");
 
-                  <div style="background: rgba(0,0,0,0.25); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 1.2rem; margin-bottom: 1.2rem;">
-                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.8rem;">
-                      <span style="font-size: 0.82rem; color: var(--text-muted);">Card Number</span>
-                      <button id="copyCardNumBtn" style="background: none; border: none; color: var(--accent-cyan); font-size: 0.78rem; cursor: pointer; display: flex; align-items: center; gap: 0.3rem;">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        Copy Full
-                      </button>
-                    </div>
-                    <div style="font-family: var(--font-display); font-size: 1.15rem; letter-spacing: 0.1em; color: var(--text-primary); margin-bottom: 0.8rem;">
-                      4890 •••• •••• 8219
-                    </div>
-                    <div style="display: flex; justify-content: space-between; font-size: 0.82rem;">
-                      <div>
-                        <span style="color: var(--text-muted);">CVV: </span>
-                        <span style="font-weight: 700;">849</span>
-                      </div>
-                      <div>
-                        <span style="color: var(--text-muted);">PIN: </span>
-                        <span id="cardPinDisplay" style="font-weight: 700;">••••</span>
-                        <button id="cardRevealPinBtn" style="background: none; border: none; color: var(--accent-cyan); font-size: 0.74rem; cursor: pointer; margin-left: 0.4rem;">View PIN</button>
-                      </div>
-                      <div>
-                        <span style="color: var(--text-muted);">EXP: </span>
-                        <span style="font-weight: 700;">09/29</span>
-                      </div>
-                    </div>
-                  </div>
+            if (open) {
+                overlay.classList.remove("hidden");
+                setTimeout(() => drawer.classList.remove("translate-x-full"), 10);
+            } else {
+                drawer.classList.add("translate-x-full");
+                setTimeout(() => overlay.classList.add("hidden"), 300);
+            }
+        }
 
-                  <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 0.4rem;">
-                    <span style="color: var(--text-secondary);">Monthly Spending Limit ($10,000)</span>
-                    <span style="font-weight: 700; color: var(--accent-cyan);">$3,420.50 (34%)</span>
-                  </div>
-                  <div style="width: 100%; height: 6px; background: rgba(255,255,255,0.08); border-radius: 4px; overflow: hidden;">
-                    <div style="width: 34%; height: 100%; background: var(--gradient-sphere);"></div>
-                  </div>
-                </div>
+        function checkoutOrder() {
+            if (cart.length === 0) return;
+            const total = document.getElementById("cart-total").textContent;
+            cart = [];
+            updateCartUI();
+            toggleCart(false);
+            showToast(`Order confirmed (${total})! Our kitchen is preparing your meal.`);
+        }
 
-                <!-- Spending Category Breakdown -->
-                <div class="glass-panel" style="padding: 1.6rem; border-radius: var(--radius-md);">
-                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.2rem;">
-                    <div>
-                      <h3 style="font-size: 1.15rem;">Expense Categorization</h3>
-                      <p style="font-size: 0.8rem; color: var(--text-secondary);">Autonomous neural classification</p>
-                    </div>
-                    <span class="badge badge-indigo">AI Tagged</span>
-                  </div>
-                  <div class="chart-canvas-wrap" style="height: 180px;">
-                    <canvas id="categoryChart"></canvas>
-                  </div>
-                </div>
-              </div>
+        // Table Reservation Logic
+        function handleReservation(e) {
+            e.preventDefault();
+            const name = document.getElementById("res-name").value;
+            const date = document.getElementById("res-date").value;
+            const time = document.getElementById("res-time").value;
+            const guests = document.getElementById("res-guests").value;
 
-              <!-- Transactions Ledger -->
-              <div class="glass-panel portal-transactions-card">
-                <div class="table-header-row">
-                  <div>
-                    <h3 style="font-size: 1.2rem;">Live Transaction Activity</h3>
-                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Instant verification with quantum threat clearance</p>
-                  </div>
+            document.getElementById("reservation-form").classList.add("hidden");
+            const confirmBox = document.getElementById("reservation-confirmation");
+            confirmBox.classList.remove("hidden");
 
-                  <div class="tx-filter-group">
-                    <button class="tx-filter-btn active" data-filter="all">All</button>
-                    <button class="tx-filter-btn" data-filter="income">Inflows</button>
-                    <button class="tx-filter-btn" data-filter="expense">Outflows</button>
-                  </div>
-                </div>
+            document.getElementById("reservation-summary-text").innerHTML = `
+                Thank you, <strong class="text-cream-50">${name}</strong>! Your table for <strong class="text-amber-400">${guests}</strong> is confirmed on <strong class="text-cream-50">${date}</strong> at <strong class="text-cream-50">${time}</strong>.
+            `;
+            showToast("Table reservation confirmed!");
+        }
 
-                <div style="overflow-x: auto;">
-                  <table class="tx-table">
-                    <thead>
-                      <tr>
-                        <th>Transaction & Details</th>
-                        <th>Timestamp</th>
-                        <th>AI Verification</th>
-                        <th style="text-align: right;">Amount</th>
-                      </tr>
-                    </thead>
-                    <tbody id="txTableBody">
-                      <!-- Rendered dynamically by app.js -->
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        function resetReservationForm() {
+            document.getElementById("reservation-form").reset();
+            document.getElementById("reservation-form").classList.remove("hidden");
+            document.getElementById("reservation-confirmation").classList.add("hidden");
+        }
 
-    <!-- ==========================================================================
-         Security & Regulatory Compliance
-         ========================================================================== -->
-    <section id="security" class="section-pad">
-      <div class="container">
-        <div class="section-head">
-          <span class="badge badge-emerald">Fortress-Grade Architecture</span>
-          <h2 class="section-title">
-            Security That Never <span class="gradient-text">Compromises</span>
-          </h2>
-          <p class="section-subtitle">
-            BankSphere AI protects billions in institutional and retail assets with zero-trust cryptographic verification, biometric protocols, and sovereign bank insurance.
-          </p>
-        </div>
-
-        <div class="security-grid">
-          <div class="security-card">
-            <div class="security-badge-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
-            </div>
-            <h3>$5,000,000 FDIC Cover</h3>
-            <p>Deposits are program-swept across our network of 20+ FDIC-insured partner banks, multiplying standard coverage by 20x.</p>
-          </div>
-
-          <div class="security-card">
-            <div class="security-badge-icon" style="background: rgba(0, 242, 254, 0.1); color: var(--accent-cyan); border-color: rgba(0,242,254,0.3);">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-              </svg>
-            </div>
-            <h3>Quantum-Safe 256-Bit AES</h3>
-            <p>Every transaction, API call, and account authorization is encrypted using post-quantum lattice cryptography algorithms.</p>
-          </div>
-
-          <div class="security-card">
-            <div class="security-badge-icon" style="background: rgba(99, 102, 241, 0.1); color: #818CF8; border-color: rgba(99,102,241,0.3);">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
-                <line x1="9" y1="9" x2="9.01" y2="9"></line>
-                <line x1="15" y1="9" x2="15.01" y2="9"></line>
-              </svg>
-            </div>
-            <h3>Biometric Zero-Knowledge</h3>
-            <p>FIDO2 biometric keys ensure only you can approve large wires or export statements. Not even BankSphere staff can access your funds.</p>
-          </div>
-
-          <div class="security-card">
-            <div class="security-badge-icon" style="background: rgba(245, 158, 11, 0.1); color: #F59E0B; border-color: rgba(245,158,11,0.3);">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-              </svg>
-            </div>
-            <h3>Real-Time Neural Defense</h3>
-            <p>Autonomous fraud agents block account takeover attempts, SIM-swap attacks, and credential stuffing in under 12 milliseconds.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         Transparent Pricing Plans
-         ========================================================================== -->
-    <section id="pricing" class="section-pad" style="background: rgba(13, 20, 36, 0.3);">
-      <div class="container">
-        <div class="section-head">
-          <span class="badge badge-cyan">Predictable & Transparent</span>
-          <h2 class="section-title">
-            Honest Plans for <span class="gradient-text">Individuals & Enterprises</span>
-          </h2>
-          <p class="section-subtitle">
-            No hidden account maintenance fees, no surprise international wire surcharges. Choose the tier that accelerates your financial vision.
-          </p>
-        </div>
-
-        <div class="pricing-grid">
-          <!-- Essential Plan -->
-          <div class="pricing-card">
-            <div>
-              <h3 class="pricing-plan-name">Sphere Essential</h3>
-              <p class="pricing-plan-desc">Intelligent personal banking for forward-thinking individuals.</p>
-
-              <div class="pricing-price-wrap">
-                <span class="price-currency">$</span>
-                <span class="price-amount">0</span>
-                <span class="price-period">/ month free forever</span>
-              </div>
-
-              <ul class="pricing-features-list">
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Checking Account with zero minimums</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>4.2% APY High-Yield Savings</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>1 Free Virtual Card with burner controls</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>SphereAI Financial Assistant (Basic)</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>$250,000 FDIC Insurance</span>
-                </li>
-              </ul>
-            </div>
-
-            <button class="btn btn-secondary" style="width: 100%;" data-action="open-account">
-              Get Started Free
-            </button>
-          </div>
-
-          <!-- Pro Plan (Popular) -->
-          <div class="pricing-card popular">
-            <span class="pricing-popular-tag">MOST POPULAR</span>
-            <div>
-              <h3 class="pricing-plan-name">Sphere Pro</h3>
-              <p class="pricing-plan-desc">For high performers, founders, and modern creators.</p>
-
-              <div class="pricing-price-wrap">
-                <span class="price-currency">$</span>
-                <span class="price-amount">12</span>
-                <span class="price-period">/ month</span>
-              </div>
-
-              <ul class="pricing-features-list">
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Full 5.4% APY Institutional Sweep Vault</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Custom World Titanium Laser-Etched Metal Card</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>1.5% Unlimited Cash Back on all card spend</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Unlimited multi-currency holding (45+ currencies)</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Full Autonomous SphereAI Copilot & Cashflow Forecast</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>$2,000,000 Extended FDIC Coverage</span>
-                </li>
-              </ul>
-            </div>
-
-            <button class="btn btn-primary" style="width: 100%;" data-action="open-account">
-              Start 30-Day Free Pro Trial
-            </button>
-          </div>
-
-          <!-- Enterprise Plan -->
-          <div class="pricing-card">
-            <div>
-              <h3 class="pricing-plan-name">Sphere Enterprise</h3>
-              <p class="pricing-plan-desc">For fast-growing companies and multi-entity global treasury.</p>
-
-              <div class="pricing-price-wrap">
-                <span class="price-currency">$</span>
-                <span class="price-amount">49</span>
-                <span class="price-period">/ month per organization</span>
-              </div>
-
-              <ul class="pricing-features-list">
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Unlimited corporate employee cards & limits</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Dedicated Private Banking Advisor & 24/7 Hotline</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Full $5,000,000 FDIC Program Sweep Protection</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Automated ERP / QuickBooks / NetSuite Bi-directional Sync</span>
-                </li>
-                <li class="pricing-feature-item">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span>Custom Liquidity Working Capital Credit Lines</span>
-                </li>
-              </ul>
-            </div>
-
-            <button class="btn btn-secondary" style="width: 100%;" data-action="open-account">
-              Contact Enterprise Concierge
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         Client Testimonials & Trust
-         ========================================================================== -->
-    <section class="section-pad">
-      <div class="container">
-        <div class="section-head">
-          <span class="badge badge-gold">Loved by 420,000+ Members Worldwide</span>
-          <h2 class="section-title">
-            Real Stories. <span class="gradient-text">Measurable Results.</span>
-          </h2>
-          <p class="section-subtitle">
-            See how founders, CFOs, and smart investors replaced sluggish legacy banks with BankSphere AI.
-          </p>
-        </div>
-
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div>
-              <div class="testimonial-stars">★★★★★</div>
-              <p class="testimonial-quote">
-                "BankSphere AI has completely replaced three separate banking accounts and our accounting software. The 5.4% APY on our company operating reserves generated an extra $38,000 this year alone."
-              </p>
-            </div>
-            <div class="testimonial-author">
-              <div class="author-pic" style="background: var(--gradient-sphere); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #040812;">
-                ER
-              </div>
-              <div class="author-info">
-                <h4>Elena Rostova</h4>
-                <p>Chief Financial Officer, Aethel Labs</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div>
-              <div class="testimonial-stars">★★★★★</div>
-              <p class="testimonial-quote">
-                "The instant cross-border rails and zero FX markups are unprecedented. We pay contractors in Tokyo, Berlin, and Singapore seamlessly, saving thousands each month in hidden wire fees."
-              </p>
-            </div>
-            <div class="testimonial-author">
-              <div class="author-pic" style="background: var(--gradient-emerald); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #FFFFFF;">
-                MK
-              </div>
-              <div class="author-info">
-                <h4>Marcus Thorne</h4>
-                <p>Managing Director, Thorne Global Ventures</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-card">
-            <div>
-              <div class="testimonial-stars">★★★★★</div>
-              <p class="testimonial-quote">
-                "The SphereAI Copilot is like having a quantitative hedge fund manager in your pocket 24/7. It caught a fraudulent subscription charging us twice and resolved it automatically in seconds."
-              </p>
-            </div>
-            <div class="testimonial-author">
-              <div class="author-pic" style="background: var(--gradient-gold); display: flex; align-items: center; justify-content: center; font-weight: 700; color: #040812;">
-                SC
-              </div>
-              <div class="author-info">
-                <h4>Samantha Chen</h4>
-                <p>Series B Founder & Angel Investor</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         CTA Callout Banner
-         ========================================================================== -->
-    <section class="section-pad" style="padding-bottom: 7rem;">
-      <div class="container">
-        <div class="glass-panel" style="padding: 4.5rem 2.5rem; text-align: center; border-radius: var(--radius-xl); background: linear-gradient(135deg, rgba(13, 20, 36, 0.95) 0%, rgba(18, 30, 56, 0.95) 100%); border: 1px solid var(--border-bright); box-shadow: var(--shadow-cyan);">
-          <span class="badge badge-emerald" style="margin-bottom: 1.5rem;">Join the Financial Vanguard</span>
-          <h2 style="font-size: 3rem; margin-bottom: 1.2rem; letter-spacing: -0.03em;">
-            Ready for <span class="gradient-text">Smart Banking</span> and Smarter Decisions?
-          </h2>
-          <p style="font-size: 1.15rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto 2.5rem auto;">
-            Open your BankSphere AI account in under 3 minutes with zero paperwork and instant virtual card provisioning.
-          </p>
-          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-            <button class="btn btn-primary btn-lg" data-action="open-account">
-              Open Your Free Account
-            </button>
-            <a href="#portalSection" class="btn btn-secondary btn-lg">
-              Test Interactive Portal
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ==========================================================================
-       Interactive Modals (Send Money & Open Account)
-       ========================================================================== -->
-
-  <!-- Modal 1: Send Money / Wire Transfer -->
-  <div id="transferModal" class="modal-overlay">
-    <div class="modal-box">
-      <div class="modal-header">
-        <div style="display: flex; align-items: center; gap: 0.6rem;">
-          <div style="width: 32px; height: 32px; border-radius: 50%; background: var(--gradient-sphere); display: flex; align-items: center; justify-content: center; color: #040812; font-weight: 700;">
-            💸
-          </div>
-          <h3 style="font-size: 1.2rem;">Instant Smart Transfer</h3>
-        </div>
-        <button class="modal-close" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.4rem;">&times;</button>
-      </div>
-
-      <form id="transferForm">
-        <div class="modal-body">
-          <div class="form-group">
-            <label class="form-label" for="transferRecipient">Recipient Name or Sphere Tag</label>
-            <input type="text" id="transferRecipient" class="form-input" placeholder="e.g. Satoshi Nakamoto or @satoshi" required>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="transferAmount">Amount ($)</label>
-            <input type="number" id="transferAmount" class="form-input" placeholder="e.g. 500.00" min="1" step="0.01" required>
-            <span style="font-size: 0.76rem; color: var(--text-muted); display: block; margin-top: 0.25rem;">Checking Available: <strong id="modalAvailBalance" style="color: var(--accent-cyan);">$28,450.75</strong></span>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="transferRail">Settlement Rail</label>
-            <select id="transferRail" class="form-select">
-              <option value="sphere">Sphere AI-Rail (Instant &bullet; $0 Fee &bullet; &lt; 0.4s)</option>
-              <option value="wire">Federal Reserve Wire (Domestic FedNow)</option>
-              <option value="swift">SWIFT Global Cross-Border (Real Mid-Market Rate)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="transferNote">Memo / Reference</label>
-            <input type="text" id="transferNote" class="form-input" placeholder="e.g. Invoice settlement or consulting fee">
-          </div>
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary modal-close">Cancel</button>
-          <button type="submit" class="btn btn-primary">
-            Send Payment Now
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <!-- Modal 2: Open New Account -->
-  <div id="openAccountModal" class="modal-overlay">
-    <div class="modal-box">
-      <div class="modal-header">
-        <div style="display: flex; align-items: center; gap: 0.6rem;">
-          <div style="width: 32px; height: 32px; border-radius: 50%; background: var(--gradient-sphere); display: flex; align-items: center; justify-content: center; color: #040812; font-weight: 700;">
-            ✨
-          </div>
-          <h3 style="font-size: 1.2rem;">Open BankSphere AI Account</h3>
-        </div>
-        <button class="modal-close" style="background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1.4rem;">&times;</button>
-      </div>
-
-      <form id="accountForm">
-        <div class="modal-body">
-          <p style="font-size: 0.86rem; color: var(--text-secondary); margin-bottom: 1.2rem;">
-            Instant AI identity verification. No hard credit pull. Zero setup fees.
-          </p>
-
-          <div class="form-group">
-            <label class="form-label" for="accName">Full Legal Name</label>
-            <input type="text" id="accName" class="form-input" placeholder="e.g. Jordan Belfort" required>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="accEmail">Email Address</label>
-            <input type="email" id="accEmail" class="form-input" placeholder="name@company.com" required>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="accPlan">Account Tier</label>
-            <select id="accPlan" class="form-select">
-              <option value="pro">Sphere Pro (5.4% APY + World Titanium Metal Card) — Recommended</option>
-              <option value="essential">Sphere Essential (Free Forever)</option>
-              <option value="enterprise">Sphere Enterprise (Multi-Entity Corporate Treasury)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="accDeposit">Initial Vault Deposit ($)</label>
-            <input type="number" id="accDeposit" class="form-input" placeholder="1000" min="50" step="50" value="1000">
-            <span style="font-size: 0.74rem; color: var(--accent-emerald); display: block; margin-top: 0.25rem;">Earns 5.4% APY immediately upon activation.</span>
-          </div>
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary modal-close">Cancel</button>
-          <button type="submit" class="btn btn-primary">
-            Activate Account
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <!-- ==========================================================================
-       Interactive Floating SphereAI Chat Assistant Widget
-       ========================================================================== -->
-  <div class="floating-ai-launcher">
-    <button id="aiChatLauncher" class="ai-launcher-btn" aria-label="Open SphereAI Assistant">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-      </svg>
-    </button>
-  </div>
-
-  <div id="aiChatWindow" class="ai-chat-window hidden">
-    <div class="ai-chat-header">
-      <div class="ai-header-title">
-        <div style="width: 28px; height: 28px; border-radius: 50%; background: var(--gradient-sphere); display: flex; align-items: center; justify-content: center; color: #040812; font-weight: 700;">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path></svg>
-        </div>
-        <div>
-          <h4 style="font-size: 0.92rem; font-weight: 700;">SphereAI Assistant</h4>
-          <span style="font-size: 0.7rem; color: var(--accent-cyan); display: flex; align-items: center; gap: 4px;">
-            <span class="portal-dot"></span> Online &bullet; Autonomous Banking
-          </span>
-        </div>
-      </div>
-      <button id="aiChatClose" style="background: none; border: none; color: var(--text-muted); font-size: 1.3rem; cursor: pointer;">&times;</button>
-    </div>
-
-    <div id="aiChatMessages" class="ai-chat-messages">
-      <div class="chat-bubble assistant">
-        Hello Alexander! I am your <strong>SphereAI Financial Copilot</strong>. I monitor your portfolio, manage cards, predict cash flows, and execute transfers. How can I assist you right now?
-      </div>
-      <div class="chat-suggestions">
-        <button class="chat-suggestion-chip" data-prompt="Analyze my spending">Analyze cash flow</button>
-        <button class="chat-suggestion-chip" data-prompt="How does the 5.4% APY work?">5.4% APY details</button>
-        <button class="chat-suggestion-chip" data-prompt="Freeze my card">Freeze my card</button>
-        <button class="chat-suggestion-chip" data-prompt="What is my current net worth?">Current net worth</button>
-      </div>
-    </div>
-
-    <div class="ai-chat-input-bar">
-      <input type="text" id="aiChatInput" placeholder="Ask SphereAI anything...">
-      <button id="aiChatSend" class="btn btn-primary btn-icon" aria-label="Send Message">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="22" y1="2" x2="11" y2="13"></line>
-          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <!-- ==========================================================================
-       Footer
-       ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="#" class="nav-brand" style="margin-bottom: 0.8rem;">
-            <div class="logo-sphere" style="width: 34px; height: 34px;">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#040812" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path></svg>
-            </div>
-            <div class="brand-text-wrapper">
-              <div class="brand-name" style="font-size: 1.2rem;">BankSphere <span class="brand-ai-pill">AI</span></div>
-            </div>
-          </a>
-          <p>
-            Smart Banking. Smarter Decisions. The autonomous financial ecosystem uniting institutional high-yield treasury, multi-currency global settlement, and quantum-safe security.
-          </p>
-          <div style="display: flex; gap: 0.8rem;">
-            <span class="badge badge-emerald" style="font-size: 0.7rem;">SOC2 Type II</span>
-            <span class="badge badge-cyan" style="font-size: 0.7rem;">ISO 27001</span>
-          </div>
-        </div>
-
-        <div class="footer-col">
-          <h4>Products</h4>
-          <ul class="footer-links">
-            <li><a href="#features">Autonomous Checking</a></li>
-            <li><a href="#features">5.4% Yield Vault</a></li>
-            <li><a href="#features">World Titanium Cards</a></li>
-            <li><a href="#features">Global Multi-Currency</a></li>
-            <li><a href="#features">Working Capital Credit</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>AI Platform</h4>
-          <ul class="footer-links">
-            <li><a href="#portalSection">SphereAI Copilot</a></li>
-            <li><a href="#calculators">Compound Simulator</a></li>
-            <li><a href="#calculators">Credit Risk Engine</a></li>
-            <li><a href="#security">Quantum Fraud Shield</a></li>
-            <li><a href="#portalSection">Predictive Runway</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul class="footer-links">
-            <li><a href="#">About BankSphere</a></li>
-            <li><a href="#">Security Architecture</a></li>
-            <li><a href="#">Careers <span class="badge badge-cyan" style="font-size: 0.6rem; padding: 0.1rem 0.4rem;">HIRING</span></a></li>
-            <li><a href="#">Press & Media</a></li>
-            <li><a href="#">Partner Banks</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Stay Informed</h4>
-          <p style="font-size: 0.82rem; margin-bottom: 1rem;">
-            Receive our quarterly institutional treasury report and macroeconomic market briefings.
-          </p>
-          <div style="display: flex; gap: 0.4rem;">
-            <input type="email" placeholder="cfo@company.com" class="form-input" style="padding: 0.5rem 0.8rem; font-size: 0.85rem;">
-            <button class="btn btn-primary btn-sm">Join</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="regulatory-notice">
-        <strong>Regulatory & FDIC Disclosure:</strong> BankSphere AI is a financial technology platform, not an FDIC-insured bank. Banking services provided by BankSphere's partner financial institutions, Members FDIC. The BankSphere Deposit Sweep Program allocates customer funds across participating FDIC-insured banks to provide eligible depositors up to $5,000,000 in aggregate FDIC insurance coverage (subject to FDIC pass-through conditions). The 5.4% Annual Percentage Yield (APY) is variable and subject to prevailing US Treasury rates.
-      </div>
-
-      <div class="footer-bottom">
-        <div>
-          &copy; 2026 BankSphere AI Technologies Inc. All rights reserved.
-        </div>
-        <div style="display: flex; gap: 1.5rem;">
-          <a href="#" style="color: var(--text-muted); text-decoration: none;">Privacy Policy</a>
-          <a href="#" style="color: var(--text-muted); text-decoration: none;">Terms of Service</a>
-          <a href="#" style="color: var(--text-muted); text-decoration: none;">Security Whitepaper</a>
-          <a href="#" style="color: var(--text-muted); text-decoration: none;">Patents & Disclosures</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Core Scripts -->
-  <script src="app.js"></script>
+        // Custom Toast Helper
+        let toastTimeout;
+        function showToast(message) {
+            const toast = document.getElementById("toast");
+            document.getElementById("toast-message").textContent = message;
+            toast.classList.remove("opacity-0", "translate-y-4", "pointer-events-none");
+            
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.add("opacity-0", "translate-y-4", "pointer-events-none");
+            }, 3000);
+        }
+    </script>
 </body>
 </html>
